@@ -1,8 +1,21 @@
-# HoldLight
+# HoldLight — Accessible Climbing
 
 A mobile-first climbing assistance application for blind and low-vision climbers, featuring layered route previews and real-time next-hold guidance.
 
-[Project Portfolio](https://yuuu-05.github.io/CPT208-ClimbProject-C2-4/) · [Demo Video](https://github.com/Yuuu-05/HoldLight/releases/tag/project-demo) · [Poster](https://yuuu-05.github.io/CPT208-ClimbProject-C2-4/assets/documents/HoldLight-Poster.pdf)
+[Project Portfolio](https://yuuu-05.github.io/CPT208-ClimbProject-C2-4/) · [Design Repository](https://github.com/June412/holdlight-design-portfolio) · [Demo Video](https://github.com/Yuuu-05/HoldLight/releases/tag/project-demo) · [Poster](https://yuuu-05.github.io/CPT208-ClimbProject-C2-4/assets/documents/HoldLight-Poster.pdf)
+
+## Academic Context
+
+| Item | Details |
+| --- | --- |
+| University | Xi'an Jiaotong-Liverpool University (XJTLU) |
+| Module | CPT208 — Human-Centric Computing |
+| Project type | Group coursework |
+| Portfolio owner | Junyan He (team member) |
+| Repository focus | Application source code and deployment instructions |
+| Original repository | [Yuuu-05/HoldLight](https://github.com/Yuuu-05/HoldLight) |
+
+This repository is a portfolio fork of our group's HoldLight application. The project was developed collaboratively; the original team repository and its commit history provide the attribution for the shared work. The companion [design portfolio](https://github.com/June412/holdlight-design-portfolio) documents the same project.
 
 ## Research
 
@@ -22,7 +35,7 @@ HoldLight: Making Indoor Climbing More Accessible for Blind and Low-Vision Climb
 ## Project Structure
 
 ```text
-HoldLight/
+holdlight-accessible-climbing/
 |-- climb-app-frontend/   # Vite + React frontend
 |-- climb-app-backend/    # Express API and Python vision runtime
 |-- deploy/               # Deployment examples and scripts
@@ -44,8 +57,8 @@ Install these tools before running the project:
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/Yuuu-05/HoldLight.git
-cd HoldLight
+git clone https://github.com/June412/holdlight-accessible-climbing.git
+cd holdlight-accessible-climbing
 ```
 
 Vision model weights are distributed separately in [Model Assets](https://github.com/Yuuu-05/climb-model-assets/releases/tag/v1). See [Deployment](DEPLOYMENT.md) for model configuration.
